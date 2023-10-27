@@ -8,8 +8,8 @@ function Scanner() {
   useEffect (() => {
     const scanner = new Html5QrcodeScanner('reader', {
       qrbox: {
-        width: 250,
-        height: 250,
+        width: 400,
+        height: 400,
       },
       fps:5,
     });
